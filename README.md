@@ -5,7 +5,11 @@ Se dejará declarado el endpoint y un ejemplo de su response.
 
 La prueba se realizará dentro de los componentes "Test" y "Card", además no
 se podrán añadir dependencias
-Los estilos se dejaron preparados con el fin de no ocupar tiempo de test.
+
+Se valora:
+-Actitud para enfrentar este pequeño desafio.
+-productividad del codigo.
+-Sintaxis limpia.
 
 Endpoint:
 https://randomuser.me/api/?results=9&exc=gender,location,login,dob,registered,id
