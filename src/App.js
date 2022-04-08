@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Test from "./Test";
 
-function App() {
+import "./styles.css";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3 className="text-2xl text-white py-4 bg-purple-600 font-bold">
+        Prueba tecnica IMCreate
+      </h3>
+      <main className="container mx-auto py-4">
+        <Test />
+      </main>
     </div>
   );
 }
-
-export default App;
